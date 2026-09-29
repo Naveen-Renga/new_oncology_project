@@ -1,0 +1,81 @@
+{
+  "model_name": "RandomForest (Calibrated)",
+  "selected_by": "Measured Clinical Score (0.6 * HighRiskRecall + 0.4 * MacroF1)",
+  "accuracy": 0.7678,
+  "macro_f1": 0.7162,
+  "high_risk_recall": 0.5105,
+  "roc_auc": 0.8842,
+  "brier_score": 0.3376,
+  "calibration_applied": true,
+  "confusion_matrix": [
+    [
+      633,
+      130,
+      0
+    ],
+    [
+      117,
+      576,
+      55
+    ],
+    [
+      0,
+      93,
+      97
+    ]
+  ],
+  "class_metrics": {
+    "Low": {
+      "precision": 0.844,
+      "recall": 0.8296,
+      "f1": 0.8367,
+      "support": 763
+    },
+    "Moderate": {
+      "precision": 0.7209,
+      "recall": 0.7701,
+      "f1": 0.7447,
+      "support": 748
+    },
+    "High": {
+      "precision": 0.6382,
+      "recall": 0.5105,
+      "f1": 0.5673,
+      "support": 190
+    }
+  },
+  "comparison": {
+    "LogisticRegression": {
+      "accuracy": 0.5832,
+      "macro_f1": 0.5554,
+      "high_risk_recall": 0.7158
+    },
+    "RandomForest": {
+      "accuracy": 0.766,
+      "macro_f1": 0.7448,
+      "high_risk_recall": 0.7368
+    },
+    "GradientBoosting": {
+      "accuracy": 0.7684,
+      "macro_f1": 0.743,
+      "high_risk_recall": 0.6053
+    }
+  },
+  "dataset_audit": {
+    "initial_rows": 11507,
+    "clean_rows": 11336,
+    "duplicate_records_removed": 171,
+    "prohibited_columns_dropped": [
+      "patient_id",
+      "TNM_T",
+      "TNM_N",
+      "TNM_M",
+      "tumor_size_cm"
+    ],
+    "missing_value_summary": {
+      "creatinine_mg_dl": 176,
+      "alt_u_l": 171,
+      "tmb_mut_mb": 166
+    }
+  }
+}

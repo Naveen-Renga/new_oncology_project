@@ -1,0 +1,26 @@
+[
+  {
+    "input": "Gene = EGFR | Drug = Osimertinib | Dosage = 80mg | Adverse Event = Severe fatigue | Urgency = High | Risk = High",
+    "output": "EGFR-positive patient receiving Osimertinib 80mg developed severe fatigue and requires urgent clinical review under high overall risk."
+  },
+  {
+    "input": "Gene = KRAS G12C | Drug = Sotorasib | Dosage = 960mg | Adverse Event = Diarrhea, Elevated transaminases | Urgency = Moderate | Risk = Moderate",
+    "output": "KRAS G12C patient on Sotorasib 960mg presented with moderate diarrhea and transaminase elevation; routine hepatic monitoring recommended."
+  },
+  {
+    "input": "Gene = ALK | Drug = Alectinib | Dosage = 600mg | Adverse Event = Bradycardia | Urgency = High | Risk = High",
+    "output": "ALK-rearranged patient receiving Alectinib 600mg manifested symptomatic bradycardia requiring urgent dose review and cardiology consultation."
+  },
+  {
+    "input": "Gene = EGFR T790M | Drug = Osimertinib | Dosage = 80mg | Adverse Event = Shortness of breath, Pneumonitis | Urgency = High | Risk = High",
+    "output": "EGFR T790M patient on Osimertinib 80mg exhibits acute dyspnea and suspected pneumonitis; urgent medication hold and thoracic evaluation mandated."
+  },
+  {
+    "input": "Gene = BRAF V600E | Drug = Dabrafenib | Dosage = 150mg | Adverse Event = Mild rash | Urgency = Low | Risk = Low",
+    "output": "BRAF V600E-positive patient on Dabrafenib 150mg reports mild skin rash without systemic toxicity; continue supportive therapy at low risk."
+  },
+  {
+    "input": "Gene = MET amplification | Drug = Capmatinib | Dosage = 400mg | Adverse Event = Peripheral edema | Urgency = Moderate | Risk = Moderate",
+    "output": "MET-amplified patient on Capmatinib 400mg developed grade 2 peripheral edema; physical symptom management and dose surveillance indicated."
+  }
+]

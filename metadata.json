@@ -1,0 +1,6 @@
+{
+  "name": "OncoPrecision - Personalized Precision Medicine for Oncology Treatment Optimization",
+  "description": "An integrated 6-stage clinical decision-support and research simulation platform for Non-Small Cell Lung Cancer (NSCLC) integrating ML, DL, NLP, SLM, GenAI, and Agentic AI with human approval gating.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

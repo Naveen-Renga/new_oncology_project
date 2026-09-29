@@ -1,0 +1,42 @@
+[
+  {
+    "patient_id": "PT-NSCLC-0104",
+    "age": 63,
+    "sex": "Female",
+    "smoking_history": "Former",
+    "primary_diagnosis": "Adenocarcinoma of the Lung",
+    "stage_category": "Stage IVB",
+    "creatinine_mg_dl": 1.45,
+    "alt_u_l": 58.0,
+    "ast_u_l": 44.0,
+    "platelets_k_ul": 185.0,
+    "anc_k_ul": 2.9,
+    "tmb_mut_mb": 11.2,
+    "ctdna_change_pct": 28.5,
+    "egfr_status": "Exon 19 del",
+    "alk_status": "Negative",
+    "kras_status": "Negative",
+    "pdl1_tps_pct": 35.0,
+    "clinical_note": "Patient with EGFR mutation is receiving Osimertinib 80mg. Patient developed severe fatigue, shortness of breath, and mild diarrhea. ctDNA rising +28.5% over the past two treatment cycles. Urgent review recommended."
+  },
+  {
+    "patient_id": "PT-NSCLC-0208",
+    "age": 68,
+    "sex": "Male",
+    "smoking_history": "Current",
+    "primary_diagnosis": "Recurrent Non-Small Cell Lung Cancer",
+    "stage_category": "Stage IVA",
+    "creatinine_mg_dl": 1.1,
+    "alt_u_l": 42.0,
+    "ast_u_l": 38.0,
+    "platelets_k_ul": 240.0,
+    "anc_k_ul": 4.1,
+    "tmb_mut_mb": 18.6,
+    "ctdna_change_pct": 12.0,
+    "egfr_status": "Wildtype",
+    "alk_status": "Negative",
+    "kras_status": "G12C",
+    "pdl1_tps_pct": 60.0,
+    "clinical_note": "Patient with confirmed KRAS G12C mutation following first-line chemo-immunotherapy progression. Presents with mild fatigue, denies chest pain, stable performance status."
+  }
+]

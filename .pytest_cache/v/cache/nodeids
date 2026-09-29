@@ -1,0 +1,14 @@
+[
+  "backend/tests/test_all_stages.py::test_agent_decision_support_and_approval_gate",
+  "backend/tests/test_all_stages.py::test_deidentification",
+  "backend/tests/test_all_stages.py::test_dl_multimodal",
+  "backend/tests/test_all_stages.py::test_duplicate_removal_and_no_leakage",
+  "backend/tests/test_all_stages.py::test_genai_scenario_generation",
+  "backend/tests/test_all_stages.py::test_invalid_age",
+  "backend/tests/test_all_stages.py::test_ml_predict_high_risk",
+  "backend/tests/test_all_stages.py::test_nlp_empty_note",
+  "backend/tests/test_all_stages.py::test_nlp_extraction_and_negation",
+  "backend/tests/test_all_stages.py::test_prohibited_fabricated_column",
+  "backend/tests/test_all_stages.py::test_slm_summarize_consistency",
+  "backend/tests/test_all_stages.py::test_valid_patient"
+]
